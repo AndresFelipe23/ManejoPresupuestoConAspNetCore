@@ -49,43 +49,43 @@
 <div class="accordion acordeon-cuentas">
     @foreach (var tipoCuenta in Model)
     {
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="cabeceraUno">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="cabeceraUno">
                 @{
                     var id = tipoCuenta.TipoCuenta.Replace(" ", "");
                     var dataBSTarget = "#" + id;
                     var claseTipoCuenta = ObtenerClaseBalance(tipoCuenta.Balance);
                 }
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="@dataBSTarget">
-                    <span class="me-3">
-                        <span><strong>@tipoCuenta.TipoCuenta</strong></span>
-                        <span class="@claseTipoCuenta">@FormatearBalance(tipoCuenta.Balance)</span>
-                    </span>
-                </button>
-            </h2>
-            <div id="@id" class="accordion-collapse collapse show">
-                <div>
-                    <ul class="list-group">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="@dataBSTarget">
+                        <span class="me-3">
+                            <span><strong>@tipoCuenta.TipoCuenta</strong></span>
+                            <span class="@claseTipoCuenta">@FormatearBalance(tipoCuenta.Balance)</span>
+                        </span>
+                    </button>
+                </h2>
+                <div id="@id" class="accordion-collapse collapse show">
+                    <div>
+                        <ul class="list-group">
                         @foreach (var cuenta in tipoCuenta.Cuentas)
                         {
                             var claseCuenta = ObtenerClaseBalance(cuenta.Balance);
-                            <li class="list-group-item">
-                                <span>
-                                    <strong>@cuenta.Nombre</strong>
-                                <a asp-action="Editar" asp-route-id="@cuenta.Id" class="btn-primary btn">
-                                    <i class="bi-pencil-fill"></i>
-                                </a>   
-                                <a asp-action="Borrar" asp-route-id="@cuenta.Id" class="btn-danger btn">
-                                    <i class="bi-trash-fill"></i>
-                                </a>   
-                                </span>
-                                <span class="@claseCuenta">@FormatearBalance(cuenta.Balance)</span>
-                            </li>
+                                    <li class="list-group-item">
+                                        <span>
+                                            <strong><a asp-action="Detalle" asp-route-id="@cuenta.Id">@cuenta.Nombre</a></strong>
+                                        <a asp-action="Editar" asp-route-id="@cuenta.Id" class="btn-primary btn">
+                                            <i class="bi-pencil-fill"></i>
+                                        </a>   
+                                        <a asp-action="Borrar" asp-route-id="@cuenta.Id" class="btn-danger btn">
+                                            <i class="bi-trash-fill"></i>
+                                        </a>   
+                                        </span>
+                                        <span class="@claseCuenta">@FormatearBalance(cuenta.Balance)</span>
+                                    </li>
                         }
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
     }
 </div>
