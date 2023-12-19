@@ -22,9 +22,9 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff; }
   
-    .log{
+    /* .log{
         background-image: '../img/bg_1.jpg';
-    }
+    } */
 
 
   p {
@@ -57,7 +57,7 @@ body {
       height: 200px; } }
   
   .half .contents {
-    background: #f6f7fc; }
+    background: #ffffff; }
   
   .half .contents, .half .bg {
     width: 50%; }
@@ -80,10 +80,10 @@ body {
     background-size: cover;
     background-position: center; }
   
-  .half a {
+  /* .half a {
     color: #888;
     text-decoration: underline; }
-  
+   */
   .half .btn {
     height: 54px;
     padding-left: 30px;

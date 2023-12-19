@@ -16,22 +16,21 @@
             <p class="mb-4">En esta aplicación podrás manejar tus finanzas</p>
             <form action="#" method="post">
               <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-              <div class="form-group first">
+              <div class="form-group first ">
                 <label asp-for="Email" class="form-label">Usuario</label>
-                <input type="text" asp-for="Email" class="form-control" placeholder="your-email@gmail.com" >
+                <input type="text" asp-for="Email" class="form-control border" placeholder="your-email@gmail.com" >
                 <span asp-validation-for="Email" class="text-danger"></span>
               </div>
               <div class="form-group last mb-3 mt-2">
                 <label asp-for="Password" class="form-label">Contraseña</label>
-                <input type="password" asp-for="Password" class="form-control" placeholder="Your Password">
+                <input type="password" asp-for="Password" class="form-control border" placeholder="Your Password">
               </div>
               
             
                     
               <input type="submit" value="Iniciar Sesión" class="btn btn-block btn-primary">
-              <a class="btn btn-success" asp-action="Registro" style="color: #fff; text-decoration: none;">Crear cuenta</a>
-            </form>
-            
+              <a class="btn btn-success" asp-action="Registro" style="color: #fff; text-decoration: none; text-align: center;">Crear cuenta</a>            
+              </form>
           </div>
         </div>
       </div>
