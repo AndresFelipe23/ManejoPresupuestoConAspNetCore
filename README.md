@@ -13,7 +13,10 @@ Contiene lo siguiente:
 - **Crear un tipo de cuenta:** se refiere a cómo podemos agrupar cuentas. Ejemplos: Préstamos, tarjetas de crédito, etc.
 - **Crear cuentas:** La cuenta se refiere a los distintos balances que tienes: tarjeta de crédito, cuenta de ahorro, préstamo, etc.
 - **Crear categorías:** La categoría nos permite indicar en qué gastamos nuestro dinero, también, de dónde provienen nuestros ingresos.
+- **Crear una transacción:** La categoría nos permite indicar en qué gastamos nuestro dinero, también, de dónde provienen nuestros ingresos.
+- **Ver transacciones:**  por año, mes, dia,ademas de visualizarlo mediante un calendario las transacciones creadas y poder descargar las transacciones en excel.
 
+ 
 ## Tech Stack
 
 **Client:** Asp .Net Core 6, Bootstrap
