@@ -19,7 +19,7 @@
 
 <a asp-action="Crear" class="btn btn-primary mb-3">Crear nuevo</a>
 
-<div class="contenedor-totales mb-3">
+<div class="contenedor-totales mb-3 border" >
     <div>
         <div>
             <strong>Activos</strong>
@@ -46,7 +46,7 @@
     </div>
 </div>
 
-<div class="accordion acordeon-cuentas">
+<div class="accordion acordeon-cuentas" >
     @foreach (var tipoCuenta in Model)
     {
             <div class="accordion-item">
@@ -64,13 +64,13 @@
                         </span>
                     </button>
                 </h2>
-                <div id="@id" class="accordion-collapse collapse show">
+                <div id="@id" class="accordion-collapse collapse show " >
                     <div>
-                        <ul class="list-group">
+                        <ul class="list-group" >
                         @foreach (var cuenta in tipoCuenta.Cuentas)
                         {
                             var claseCuenta = ObtenerClaseBalance(cuenta.Balance);
-                                    <li class="list-group-item">
+                                    <li class="list-group-item" >
                                         <span>
                                             <strong><a asp-action="Detalle" asp-route-id="@cuenta.Id">@cuenta.Nombre</a></strong>
                                         <a asp-action="Editar" asp-route-id="@cuenta.Id" class="btn-primary btn">
