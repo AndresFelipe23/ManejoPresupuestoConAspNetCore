@@ -31,6 +31,7 @@ Contiene lo siguiente:
 
 ## Screenshots
 
+![Captura de pantalla 2023-12-23 124220](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/2dc1f661-f649-4ffa-b4de-6e24fe735fb8)
 
 ![Captura de pantalla 2023-12-19 171517](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/7fc34f47-3c1a-4aca-8747-7da046345620)
 ![Captura de pantalla 2023-12-14 163735](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/a8a27c3f-4656-4f32-a10f-b5cb5f781b4b)
