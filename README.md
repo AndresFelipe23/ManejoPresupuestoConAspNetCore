@@ -13,7 +13,10 @@ Contiene lo siguiente:
 - **Crear un tipo de cuenta:** se refiere a cómo podemos agrupar cuentas. Ejemplos: Préstamos, tarjetas de crédito, etc.
 - **Crear cuentas:** La cuenta se refiere a los distintos balances que tienes: tarjeta de crédito, cuenta de ahorro, préstamo, etc.
 - **Crear categorías:** La categoría nos permite indicar en qué gastamos nuestro dinero, también, de dónde provienen nuestros ingresos.
+- **Crear una transacción:** La categoría nos permite indicar en qué gastamos nuestro dinero, también, de dónde provienen nuestros ingresos.
+- **Ver transacciones:**  por año, mes, dia,ademas de visualizarlo mediante un calendario las transacciones creadas y poder descargar las transacciones en excel.
 
+ 
 ## Tech Stack
 
 **Client:** Asp .Net Core 6, Bootstrap
@@ -25,14 +28,11 @@ Contiene lo siguiente:
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ## Demo
 
-Link del demo:
-- a 
-
 
 ## Screenshots
 
-![Captura de pantalla 2023-12-14 163815](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/6e3fe9ac-2666-4da6-9bb0-dd3eb5786416)
-![Captura de pantalla 2023-12-14 163801](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/f5a6f6c6-55c7-4440-862b-27909672b923)
+
+![Captura de pantalla 2023-12-19 171517](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/7fc34f47-3c1a-4aca-8747-7da046345620)
 ![Captura de pantalla 2023-12-14 163735](https://github.com/AndresFelipe23/ManejoPresupuestoConAspNetCore/assets/75282613/a8a27c3f-4656-4f32-a10f-b5cb5f781b4b)
 
 
